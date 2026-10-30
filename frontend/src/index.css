@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; background: #f3f4f6; margin: 0; }
+.container { max-width: 650px; margin: 0 auto; padding: 16px; }
+.auth { max-width: 360px; margin: 80px auto; }
+.card { background: #fff; padding: 12px 16px; margin: 10px 0; border-radius: 8px; }
+header { display: flex; justify-content: space-between; align-items: center; }
+form input, form textarea { display: block; width: 100%; box-sizing: border-box; margin: 8px 0; padding: 8px; }
+button { margin-right: 6px; padding: 6px 12px; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+.task { display: flex; align-items: center; gap: 10px; }
+.task-body { flex: 1; }
+.task.done strong { text-decoration: line-through; color: #888; }
+.filters { display: flex; gap: 8px; }
+.filters input { flex: 1; padding: 8px; }
+.error { color: #c0392b; }
+.center { text-align: center; }
