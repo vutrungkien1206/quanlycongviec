@@ -32,10 +32,18 @@ a:hover { text-decoration: underline; }
   padding: 24px 16px 48px;
   animation: fadeUp 0.5s ease backwards;
 }
-.auth { max-width: 380px; margin: 90px auto; animation: fadeUp 0.5s ease backwards; }
-.auth h2 { text-align: center; margin-top: 0; color: var(--primary-dark); }
-.auth p { text-align: center; color: var(--muted); }
-.auth button { width: 100%; margin: 8px 0 0; padding: 11px; }
+/* Trang đăng nhập / đăng ký: to hơn và căn giữa màn hình */
+.card.auth {
+  width: 100%;
+  max-width: 460px;
+  margin: 12vh auto 40px;
+  padding: 36px 40px;
+  animation: fadeUp 0.5s ease backwards;
+}
+.auth h2 { text-align: center; margin: 0 0 20px; font-size: 2rem; color: var(--primary-dark); }
+.auth input { padding: 14px 16px; font-size: 1.05rem; }
+.auth button { width: 100%; margin: 12px 0 0; padding: 14px; font-size: 1.1rem; }
+.auth p { text-align: center; color: var(--muted); font-size: 1.05rem; }
 .center { text-align: center; color: var(--muted); }
 
 header {
@@ -252,7 +260,7 @@ p.error {
   header { flex-direction: column; align-items: flex-start; }
   .filters { flex-direction: column; }
   .task { flex-wrap: wrap; }
-  .auth { margin: 40px 16px; }
+  .card.auth { margin: 40px 16px; width: auto; padding: 28px 22px; }
 }
 
 /* Người dùng tắt hiệu ứng trong hệ điều hành thì không chạy chuyển động */
